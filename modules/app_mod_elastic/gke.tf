@@ -57,6 +57,7 @@ module "gke_cluster" {
       preemptible    = var.preemptible_nodes
       disk_size_gb   = var.disk_size_gb_nodes
       disk_type      = var.disk_type_nodes
+      enable_secure_boot  = true
 
     }
   ]
